@@ -11,15 +11,26 @@ digraph {
 
   "Programming Languages" -> "C"
   "Programming Languages" -> "Java"
+  "Programming Languages" -> "Objective-C"
+  "Programming Languages" -> "C++"
+  "Programming Languages" -> "Javascript"
   "Programming Languages" -> "ASCII Dependant"
 
   "C" -> "Unsafe"
+  "Objective-C" -> "Unsafe"
+  "C++" -> "Unsafe"
   "Unsafe" [URL="https://homes.cs.washington.edu/~djg/papers/grossman_thesis.pdf"]
 
   "Operating Systems" -> "OSX"
+  "Operating Systems" -> "iOS"
+  "Operating Systems" -> "Android"
   "Operating Systems" -> "Windows"
   "Operating Systems" -> "Linux"
   "Operating Systems" -> "UNIX"
+  
+  "Objective-C" -> "Apple"
+  "OSX" -> "Apple"
+  "iOS" -> "Apple"
 
   "OSX" -> "UNIX Clone"
   "Linux" -> "UNIX Clone"
@@ -33,6 +44,7 @@ digraph {
   "Internet" -> "Insecure Protocols"
   "Internet" -> "ASCII Dependant"
   "Internet" -> "Freedom" -> "Insecure Protocols"
+  "Internet" -> "Javascript"
   "Freedom" -> "NSA"
   "Freedom" -> "Corporations"
 }
