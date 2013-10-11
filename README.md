@@ -10,6 +10,8 @@ The process is as inclusive and transparent as we know how to make it. The Mind 
 Contribute
 ----------
 
+Everyone's idea of what is wrong with technology is different. It is only by collaborating that we can hope to identify the extent of the problem. There are a few ways to add your voice to the Mind Map:
+
 ### Pull Requests
 The most seamless way to contribute to the Mind Map is by taking out a [pull request](https://help.github.com/articles/creating-a-pull-request).
 
@@ -27,6 +29,6 @@ A GitHub is recommended as it is the most direct way to participate in the proje
 
 Legal
 =====
-This project and particularly the contents of the `everything.dot` file are released into the public domain.
+This project and the contents of the `everything.dot` file are released into the public domain.
 
 This project makes use of [viz.js](https://github.com/mdaines/viz.js/) to render the graph.
