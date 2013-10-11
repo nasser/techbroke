@@ -1,0 +1,38 @@
+digraph {
+  "Technology is Broken" -> "Operating Systems"
+  "Technology is Broken" -> "Programming Languages"
+  "Technology is Broken" -> "Hardware"
+  "Technology is Broken" -> "Law"
+  "Technology is Broken" -> "Culture"
+  "Technology is Broken" -> "Internet"
+  "Technology is Broken" -> "Usability"
+
+  "Hardware" -> "Proprietary Drivers"
+
+  "Programming Languages" -> "C"
+  "Programming Languages" -> "Java"
+  "Programming Languages" -> "ASCII Dependant"
+
+  "C" -> "Unsafe"
+  "Unsafe" [URL="https://homes.cs.washington.edu/~djg/papers/grossman_thesis.pdf"]
+
+  "Operating Systems" -> "OSX"
+  "Operating Systems" -> "Windows"
+  "Operating Systems" -> "Linux"
+  "Operating Systems" -> "UNIX"
+
+  "OSX" -> "UNIX Clone"
+  "Linux" -> "UNIX Clone"
+  "UNIX Clone" -> "UNIX"
+
+  "UNIX" -> "ASCII Dependant"
+
+  "Culture" -> "ASCII Dependant"
+  "ASCII Dependant" -> "Alientating"
+
+  "Internet" -> "Insecure Protocols"
+  "Internet" -> "ASCII Dependant"
+  "Internet" -> "Freedom" -> "Insecure Protocols"
+  "Freedom" -> "NSA"
+  "Freedom" -> "Corporations"
+}
