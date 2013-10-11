@@ -18,7 +18,7 @@ The most seamless way to contribute to the Mind Map is by taking out a [pull req
 3. [Submit](https://help.github.com/articles/using-pull-requests) your changes as a pull request. We use the "Fork & Pull" model.
 
 ### Issues
-To start a conversation around a topic without making changes, you can take out an issue.
+The project's [issues page](https://github.com/nasser/techbroke/issues) is where discussion takes place. To start a conversation around a topic without making changes, you can [take out a new issue](https://github.com/nasser/techbroke/issues/new).
 
 ### Email 
 A GitHub is recommended as it is the most direct way to participate in the project. If you do not have or want a GitHub you can still contribute by emailing your additions to any of the following people. They will forward your ideas to the group in the form of Issues or Pull Requests.
